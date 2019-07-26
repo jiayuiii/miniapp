@@ -1,0 +1,5 @@
+<view class='{{style}}'>
+  <image src='{{url}}'></image>
+  <text class='title'>{{title}}</text>
+  <text class='msg'>{{msg}}</text>
+</view>

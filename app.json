@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "modules/moduleWrap/index",
+    "pages/foundAndLost/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "实验教学中心",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首 页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "? ? ?",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "img/myCenter.png",
+        "selectedIconPath": "img/myCenter.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

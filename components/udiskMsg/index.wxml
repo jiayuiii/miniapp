@@ -1,0 +1,22 @@
+<view class="wrap">
+  <view class='img'>
+    <image></image>
+    <text class='time'>2019????</text>
+  </view>
+  <view class='msg'>
+    <view class='title'>
+      <image src="img/get.png"></image>金士顿？
+    </view>
+    <view class='ram'>U盘内存：</view>
+    <view class='loster-id'>失主学号：</view>
+    <view class='get-place'>拾到地点：</view>
+    <view class='description'>信息描述：</view>
+    <view class='current-place'>
+    <image src='img/position.png'></image>
+    U盘目前所在地：</view>
+    <view class='contact-info'>
+    <image src='img/contract.png'></image>
+    拾主联系方式：</view>
+  </view>
+</view>
+

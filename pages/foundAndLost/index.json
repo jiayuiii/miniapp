@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-diskList":"../../modules/udiskList/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "module":"../../components/module/index",
+    "slide":"../../components/slide/index"
+  }
+}

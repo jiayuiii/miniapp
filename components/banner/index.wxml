@@ -1,0 +1,3 @@
+<view class="banner">
+  <image src = "{{url}}"></image>
+</view>

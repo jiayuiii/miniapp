@@ -1,0 +1,14 @@
+/* components/moduleWrap/index.wxss */
+
+.wrap{
+  width: 702rpx;
+  height: 630rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  box-shadow: 0 0 16rpx #ccc;
+  margin: 0 auto;
+
+}
+.line{
+  display: flex
+}

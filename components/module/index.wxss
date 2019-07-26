@@ -1,0 +1,49 @@
+/* components/nav/index.wxss */
+.wrap{
+  width: 350rpx;
+  height: 210rpx;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* .wrap::before{
+  content: "";
+  display: block;
+  width: 2rpx;
+  height: 120rpx;
+  position: absolute;
+  right: -1rpx;
+  top: -60rpx;
+  margin-top: 50%;
+  background-color:#f2f2f2;
+} */
+.bottom::after{
+  content: "";
+  display: block;
+  width: 240rpx;
+  height: 2rpx;
+  position: absolute;
+  bottom: 0;
+  left: -120rpx;
+  margin-left: 50%;
+  background-color: #f2f2f2;
+}
+.wrap image{
+  width: 80rpx;  
+  height: 80rpx;
+  margin-top: 50rpx;
+  margin-bottom: 8rpx;
+}
+.wrap .title{
+  font-size: 18rpx;
+  line-height: 30rpx;
+   color: #353535;
+}
+.wrap .msg{
+  font-size: 14rpx;
+  line-height: 14rpx;
+  color: #888888;
+}

@@ -1,0 +1,59 @@
+.wrap{
+  width: 700rpx;
+  height: 244rpx;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10rpx 10rpx #eee;
+  box-sizing: border-box;
+  padding: 20rpx 17rpx;
+  margin: 0 auto 10rpx auto;
+}
+.img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 140rpx;
+  height: 100%;
+  margin-right: 40rpx;
+}
+.img image{
+  width: 140rpx;
+  height: 140rpx;
+  background-color: red;
+}
+.img .time{
+  text-align: center;
+  font-size: 14rpx;
+  color: #888;
+}
+.msg{
+  flex: 1;
+  color: #888;
+  font-size: 16rpx;
+  line-height: 32rpx;
+}
+.msg .title{
+  font-size: 20rpx;
+  line-height: 20rpx;
+}
+.msg image{
+  position: relative;
+  top: 2rpx;
+}
+.msg>view{
+  width: 500rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.msg .title image{
+  width: 40rpx;
+  height: 20rpx;
+  margin-right:20rpx;
+}
+.msg .current-place image,
+.msg .contact-info image{
+  width: 16rpx;
+  height: 16rpx;
+  margin-right: 8rpx;
+}

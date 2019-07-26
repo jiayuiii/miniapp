@@ -1,0 +1,17 @@
+<view class="wrap">
+  <view class='line'>
+    <module url='../../img/失物招领.png' title='失物招领' msg='丢失物品/捡到物品' bind:tap="foundAndLostTap"/>
+    <slide/>
+    <module url='../../img/电脑.png' title='自由上机' msg='上机教室查询'/>
+  </view>
+  <view class='line'>
+    <module url='../../img/信息查询.png' title='信息查询' msg='硬件资源/软件资源/使用指导'/>
+    <slide/>
+    <module url='../../img/ftp图.png' title='FTP资源' msg='ftp资源信息查找'/>
+  </view>
+  <view class='line'>
+    <module url='../../img/教学视频图.png' title='教学视频' msg='实验中心教学视频' bottomBar='{{false}}'/>
+    <slide/>
+    <module url='../../img/师生反馈.png' title='师生反馈' msg='提出意见/接受建议' bottomBar='{{false}}'/>
+  </view>
+</view>
